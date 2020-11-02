@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+body {
+  min-height: 100vh;
+  background-color: #bada55;
+  color: rebeccapurple;
+}
+header {
+  padding: 1rem 3rem;
+}
+main {
+  padding: 1rem 2rem;
+}
+p {
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
